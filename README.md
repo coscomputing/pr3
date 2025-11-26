@@ -183,19 +183,15 @@ Expected NMSE values:
 ├── evaluate.py                  # Evaluation script
 ├── requirements.txt             # Python dependencies
 ├── README.md                   
-├── src/
-│   ├── config.py               # Configuration (hyperparameters from Appendix A)
-│   ├── models.py               # PGUN and U-Net implementations
-│   ├── data.py                 # Dataset loaders with augmentation
-│   ├── classical.py            # HIO and Wirtinger Flow
-│   ├── utils.py                # FFT, NMSE, helper functions
-│   ├── train.py                # Training loop (legacy)
-│   ├── evaluate.py             # Evaluation utilities (legacy)
-│   └── generate_emdb_dataset.py # EMDB-1050 dataset generator
-├── data/                        # Datasets (auto-created)
-├── checkpoints/                 # Model checkpoints (auto-created)
-├── logs/                        # Tensorboard logs (auto-created)
-└── results/                     # Evaluation results (auto-created)
+└── src/
+    ├── config.py               # Configuration (hyperparameters from Appendix A)
+    ├── models.py               # PGUN and U-Net implementations
+    ├── data.py                 # Dataset loaders with augmentation
+    ├── classical.py            # HIO and Wirtinger Flow
+    ├── utils.py                # FFT, NMSE, helper functions
+    ├── train.py                # Training loop (legacy)
+    ├── evaluate.py             # Evaluation utilities (legacy)
+    └── generate_emdb_dataset.py # EMDB-1050 dataset generator
 ```
 
 ---
