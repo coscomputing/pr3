@@ -38,8 +38,8 @@ Phase retrieval seeks to reconstruct complex-valued signals from intensity measu
 
 ```bash
 # Clone the repository
-git clone https://github.com/coscomputing/PR2.git
-cd PR2
+git clone https://github.com/coscomputing/pr3
+cd pr3
 
 # Create virtual environment (recommended)
 python -m venv venv
